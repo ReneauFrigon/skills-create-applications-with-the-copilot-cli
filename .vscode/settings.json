@@ -1,17 +1,21 @@
 {
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.sideBar.visible": false,
     "workbench.panel.defaultLocation": "bottom",
-    "workbench.editor.showTabs": "none",
+    "workbench.editor.showTabs": "multiple",
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "none",
     "terminal.integrated.hideOnLastClosed": false,
     "github.copilot.enable": {
-        "*": false
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "jsonc": true
     },
     "github.copilot.editor.enableAutoCompletions": false,
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "default",
     "workbench.explorer.enabled": false,
     "explorer.enabled": false,
     "explorer.autoReveal": false,
